@@ -39,7 +39,7 @@ const SeriesDetailsCard = ({
         </Link>
         <div className="flex text-amber-50 max-w-1/2 md:max-w-2/3">
           <img className="h-70 pt-20" src={getImageLink(img)} alt="card image" />
-          <div className="pl-6 md:pl-10">
+          <div className="pl-6 md:p">
             <h1 className="text-5xl pb-3 pt-15 font-semibold">{header}</h1>
             <p className="text-2xl pl-4 font-semibold">{date}</p>
             <p className="pl-4 pt-2 text-2xl ">Overview</p>
