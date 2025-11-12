@@ -1,5 +1,4 @@
 import { Link, useParams } from "react-router";
-import Moviecard from "../components/Moviecard";
 import { useFetch } from"../hooks/useFetch";
 import MovieDetailsCard, { MovieDetailsCardData } from "../components/MovieDetailsCard";
 
