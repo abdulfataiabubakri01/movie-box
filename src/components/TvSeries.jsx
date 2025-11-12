@@ -1,5 +1,5 @@
-import React from "react";
-import SeriesCard, { SeriesCardData } from "./seriesCard";
+
+import  SeriesCard, { SeriesCardData } from "./seriesCard";
 import { useFetch } from "../hooks/useFetch";
 
 
