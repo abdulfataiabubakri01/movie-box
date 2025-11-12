@@ -5,7 +5,7 @@ import { useFetch } from "../hooks/useFetch";
 
     const TvSeries = () => {
     const { data, isLoading, error, fetchData} = useFetch("discover/tv");
-    console.log(data, "response");
+
 
 
   return (
