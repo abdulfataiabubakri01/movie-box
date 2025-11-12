@@ -66,7 +66,7 @@ export const SeriesCardData = [
   },
 ];
 
-const seriesCard = ({ id, img, SeriesName, date }) => {
+const SeriesCard = ({ id, img, SeriesName, date }) => {
   return (
     <Link to={`/tvseries/${id}`}>
       <div className="bg-gray-200 h-10/11 w-80 md:w-60 md:h-99/100 rounded-2xl group overflow-hidden border border-neutral-300 hover:shadow-2xl dark:bg-slate-900 dark:border-slate-700">
@@ -88,4 +88,4 @@ const seriesCard = ({ id, img, SeriesName, date }) => {
     </Link>
   );
 };
-export default seriesCard
+export default SeriesCard
