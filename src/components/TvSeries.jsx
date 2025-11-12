@@ -1,6 +1,6 @@
 
-import  SeriesCard, { SeriesCardData } from "./seriesCard";
 import { useFetch } from "../hooks/useFetch";
+import SeriesCard from "./seriesCard";
 
 
     const TvSeries = () => {
