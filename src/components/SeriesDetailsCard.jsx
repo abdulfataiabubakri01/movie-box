@@ -45,7 +45,7 @@ const SeriesDetailsCard = ({
             <p className="pl-4 pt-2 text-2xl ">Overview</p>
             <p className="pl-4 pt-1">{summary}</p>
             <p className="pt-5 pl-4 text-3xl">Genre</p>
-            <div className="space-x-1 pt-2 pb-4 ">{genreType?.map((genre, index) => (
+            <div className="flex flex-col space-y-2 max-w-[45%] pt-2 pb-4 ">{genreType?.map((genre, index) => (
                                         <span
                                             className="border rounded-2xl text-sm  px-3 py-1 border-neutral-300"
                                             key={index}
